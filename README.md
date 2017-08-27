@@ -46,7 +46,7 @@ This role depends on two other roles as stated above:
 - [ansible-role-webserver](https://github.com/GSquad934/ansible-role-webserver)
 
 
-If you install this role via Ansible-Galaxy, the name of the roles are *GSquad934.database* and *GSquad934.webserver*.
+If you install this role via Ansible-Galaxy, the name of the roles are [*GSquad934.database*](https://github.com/GSquad934/ansible-role-database) and [*GSquad934.webserver*](https://github.com/GSquad934/ansible-role-webserver).
 
 
 However, if you have MariaDB and Nginx installed, this role should still works if you adapt it.
