@@ -60,7 +60,7 @@
   lineinfile:
     path: /etc/nginx/sites-available/{{ phpmyadmin_hostname }}.conf
     regexp: '^    ssl_certificate '
-    line: ssl_certificate /etc/ssl/certs/ssl-cert-snakeoil.pem;
+    line: "    ssl_certificate /etc/ssl/certs/ssl-cert-snakeoil.pem;"
     backrefs: yes
   when: not cert.stat.exists
 
@@ -68,7 +68,7 @@
   lineinfile:
     path: /etc/nginx/sites-available/{{ phpmyadmin_hostname }}.conf
     regexp: '^    ssl_certificate_key'
-    line: ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;
+    line: "    ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;"
     backrefs: yes
   when: not cert.stat.exists
 
