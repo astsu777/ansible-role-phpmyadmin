@@ -2,8 +2,8 @@ Ansible Role: PHPMyAdmin
 =========
 
 This role installs and configure PHPMyAdmin. Note that this particular role is depending on two others:
-- [ansible-role-database] (https://github.com/GSquad934/ansible-role-database)
-- [ansible-role-webserver] (https://github.com/GSquad934/ansible-role-webserver)
+- [ansible-role-database](https://github.com/GSquad934/ansible-role-database)
+- [ansible-role-webserver](https://github.com/GSquad934/ansible-role-webserver)
 
 
 Once MariaDB and Nginx (from the two roles above) are up and running, this role performs the following actions:
@@ -42,8 +42,8 @@ Dependencies
 ------------
 
 This role depends on two other roles as stated above:
-- [ansible-role-database] (https://github.com/GSquad934/ansible-role-database)
-- [ansible-role-webserver] (https://github.com/GSquad934/ansible-role-webserver)
+- [ansible-role-database](https://github.com/GSquad934/ansible-role-database)
+- [ansible-role-webserver](https://github.com/GSquad934/ansible-role-webserver)
 
 
 If you install this role via Ansible-Galaxy, the name of the roles are *GSquad934.database* and *GSquad934.webserver*.
